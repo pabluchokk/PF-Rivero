@@ -1,0 +1,52 @@
+/* CONTACTO */
+
+.form {
+    color: #fff;
+    font-family: $fuente;
+    font-size: 40px;
+    margin: 10px;
+    .btn {
+        background-color: $colorPrincipal;
+        border: $colorBordes;
+        color: #fff;
+        margin-left: 100px;
+    }
+}
+
+.input-group {
+    margin: 10px;
+    i {
+        margin: 15px;
+        color: $colorPrincipal;
+    }
+    .fa-key {
+        margin-left: 20px;
+    }
+}
+
+/* DISEÑO DESKTOP DE CONTACTO */
+
+@media (min-width: 1024px){
+
+.form {
+    display: flex;
+    height: 100%;
+    font-size: 50px;
+    min-height: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.input-group {
+    width: 800px;
+    height: 50px;
+    margin: 50px;
+    flex: 1;
+}
+
+.btn {
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+}
+}

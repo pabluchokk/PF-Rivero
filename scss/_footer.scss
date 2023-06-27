@@ -1,0 +1,33 @@
+/* ESTILOS DEL FOOTER */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.card-footer {
+    background-color: $colorPrincipal;
+    color: #000;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    h6 {
+        font-size: 19px;
+        font-family: "Montserrat";
+    }
+}
+
+.redes {
+    width: 38px;
+}
+
+/* ESTILO DEL FOOTER EN DESKTOP */
+
+@media (min-width: 1024px) {
+    .card-footer {
+        bottom: 100%;
+        padding: 20px;
+        justify-content: center;
+    }
+}
